@@ -18,12 +18,12 @@ pynng-mqtt is a Python extension for NanoSDK that makes it possible to send MQTT
 
 ### 1. Build Docker container
 ```bash
-docker build -t pynng-mqtt-working .
+docker build -t pynng-mqtt .
 ```
 
 ### 2. Run interactive shell
 ```bash
-docker run --rm -it pynng-mqtt-working bash
+docker run --rm -it pynng-mqtt bash
 ```
 
 ### 3. Test the library
@@ -135,7 +135,7 @@ If the Docker build fails:
 docker system prune -a
 
 # Build again
-docker build -t pynng-mqtt-working .
+docker build -t pynng-mqtt .
 ```
 
 ## Contributing
